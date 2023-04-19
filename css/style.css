@@ -258,6 +258,7 @@ a:hover{
     width:fit-content ;
     align-items: center;
     /* justify-content: space-evenly; */
+    font-family: 'Consolas';
 }
 
 .likes img{
@@ -320,4 +321,44 @@ a:hover{
     font-size: 18px;
     margin-bottom: 30px;
     line-height: 1.6;
+}
+
+#sec4{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.sub_sec1{
+    width: 70%;
+    margin-left:70px ;
+}
+
+.sub_sec1 h2{
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+
+.sub_sec1 p{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.8;
+    width: 90%;
+}
+
+.sub_sec2{
+    display: flex;
+    width: 90%;
+    margin-top: 90px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.webapp{
+    width: 15%;
+    height: 100px;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
